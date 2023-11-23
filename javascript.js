@@ -76,5 +76,20 @@ while (operazioneScelte != 7) {
       alert("La lista è stata riordinata");
       alert("La tua lista comprende questi componenti: " + lista);
       break;
+    case 5: 
+        lista = resetLista(lista);
+        alert("La tua lista è stata resettata")
+        alert("La tua lista comprende questi componenti: " + lista);
+        break;
+    case 6:
+        
+        alert("La tua lista comprende questi componente " + lista);
+        break;
+    case 7:
+        alert("Esci");
+        break;
+    default : 
+        alert("Operazione non valida")
+        break;
   }
 }
