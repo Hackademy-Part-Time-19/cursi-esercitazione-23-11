@@ -1,0 +1,80 @@
+.video_prada{
+    object-fit:cover;
+    width: 100vh;
+    height: 100vh;
+    
+}
+
+@media (max-width: 450px){
+    .img_col{
+        width: 100vh;
+        height: 150vh;
+        object-fit: cover;
+        padding: 2%;
+
+    }
+    .video_prada{
+        object-fit:cover;
+        width: 100vh;
+        height: 150vh;
+        
+    }
+body{
+    background-color: #FFFFFF;
+    justify-content: center;
+}
+}
+
+@media (min-width: 451px) {
+
+    .img_col{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        padding: 1%;
+        filter: brightness(0.8);
+    }
+
+    .video_prada{
+        object-fit:cover;
+        width: 100%;
+        height: 100%;
+        
+
+    }
+    body{
+        justify-content: center;
+        background-color: #FFFFFF;
+
+    }
+    
+}
+
+.autunno_inverno{
+    color: #FFFFFF;
+    font-size: 25px;
+    z-index: 100;
+    position: absolute;
+    flex-direction: row;
+    padding: 1%;
+}
+
+.borse_donna{
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 26px;
+    z-index: 100;
+    flex-direction: row;
+    padding: 1%;
+}
+
+.disp_block{
+    display: block;
+}
+
+.ssu{
+    z-index: 101;
+    font-size: 20px;
+    color: #FFFFFF;
+    
+}
